@@ -5,42 +5,56 @@ dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
 font-family: Arial, Helvetica, sans-serif
 */
-body{
-	display: flex;
-	flex-direction: column;
-	height: 100vh;
-}
-.wrapper{ 
-	flex: 1 0 auto;
-}
-.footer{
-	background-color: black;
- 	color: white;  
- 	flex-shrink: 0;
- 	padding-top: 15px;
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.index-container{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 100px;
+.footer {
+  background-color: black;
+  color: white;
+  flex-shrink: 0;
+  padding-top: 15px;
+}
+
+.index-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 
 .index-container img {
-	width: 150px;
+  width: 150px;
 }
 
-.index-container div .btn{
-	margin: 10px 0;
+.index-container div .btn {
+  margin: 10px 0;
 }
 
-.content-beer{
-	display: flex;
+.content-beer {
+  display: flex;
+  margin: 50px auto;
 }
-.beer{
-	width: 300px;
+
+.beer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tagLine {
+  color: grey;
+}
+
+.img-beer {
+  max-height: 200px;
+}
+
+.wrapper {
+  height: 100vh;
 }

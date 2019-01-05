@@ -1,8 +1,5 @@
-<div>
-{{#each b}} 
- <div class="content-beer">
- 	hbs.registerPartials(__dirname + '/views/partials')
- </div>
-{{/each }}
+<div class="content-beer row container">
+	{{#each b}}
+	{{> beerPartials}}
+	{{/each }}
 </div>
- 
